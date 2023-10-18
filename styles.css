@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+#results{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+}
+.final{
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    align-self: center;
+    justify-content: center;
+    width: 100px;
+}
